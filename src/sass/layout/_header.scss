@@ -1,0 +1,23 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  padding: 0 25px;
+
+  background-color: $background;
+  box-shadow: 0 5px 5px -5px $main-color;
+
+  .navigation {
+    font-size: 1.3rem;
+  }
+
+  .logo {
+    margin-left: 0.5rem;
+  }
+
+  .menu {
+    margin-left: auto;
+
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,11 @@
+.canvas-wrapper {
+  position: relative;
+
+  width: $canvas-width;
+  height: $canvas-height;
+  margin: 0 auto;
+
+  .canvas {
+    background-color: $background-canvas;
+  }
+}
