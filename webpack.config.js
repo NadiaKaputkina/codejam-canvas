@@ -7,7 +7,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const isDevelopment = argv.mode === 'development';
 const isProduction = !isDevelopment;
-const distPath = path.join(__dirname, '/src');
+const distPath = path.join(__dirname, 'dist');
 
 const config = {
     entry: {
@@ -26,7 +26,7 @@ const config = {
             test: /\.js$/,
             exclude: /node_modules/,
             use: [{
-                loader: 'babel-loader'
+                loader: 'eslint-loader'
             }]
         }, {
             test: /\.scss$/,
