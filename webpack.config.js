@@ -51,7 +51,7 @@ const config = {
             use: {
                 loader: 'file-loader',
                 options: {
-                    name: 'fonts/[name][hash].[ext]'
+                    name: '[name][hash].[ext]'
                 }
             },
         }]
