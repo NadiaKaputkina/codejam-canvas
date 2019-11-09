@@ -1,7 +1,3 @@
-1. Install Node
+##CodeJam - Canvas 
 
-2. npm run start - for development 
-
-   or 
-   
-   npm run build - for production
+https://nadiakaputkina.github.io/codejam-canvas/
