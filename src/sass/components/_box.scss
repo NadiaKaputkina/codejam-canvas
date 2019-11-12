@@ -1,0 +1,16 @@
+.box {
+  position: absolute;
+  width: 10rem;
+
+  background-color: $background;
+
+  box-shadow: 0 3px 6px -3px $main-color;
+
+  &.colors {
+    top: 15rem;
+  }
+
+  &.images {
+    right: 20px;
+  }
+}

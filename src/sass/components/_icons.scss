@@ -1,0 +1,25 @@
+span[class^="icon"] {
+  margin-right: 10px;
+}
+
+.colors {
+  span[class^="icon"] {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+
+    border: 1px solid $main-color;
+    border-radius: 50%;
+  }
+  span[class*="prev"] {
+    background: green;
+  }
+
+  span[class*="red"] {
+    background: red;
+  }
+
+  span[class*="blue"] {
+    background-color: blue;
+  }
+}

@@ -7,7 +7,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const isDevelopment = argv.mode === 'development';
 const isProduction = !isDevelopment;
-const distPath = path.join(__dirname, '/src');
+const distPath = path.join(__dirname, 'dist');
 
 const config = {
     entry: {
@@ -15,7 +15,6 @@ const config = {
     },
     output: {
         filename: 'bundle.js',
-        publicPath: '/',
         path: distPath
     },
     module: {
@@ -52,7 +51,7 @@ const config = {
             use: {
                 loader: 'file-loader',
                 options: {
-                    name: 'fonts/[name][hash].[ext]'
+                    name: '[name][hash].[ext]'
                 }
             },
         }]
