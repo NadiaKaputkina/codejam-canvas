@@ -4,7 +4,7 @@ canvas.height = 512;
 
 const ctx = canvas.getContext('2d');
 
-const initialCanvas = () => {
+const initCanvas = () => {
   if (canvas !== null) {
     for (let row = 0; row < canvas.height / 2; row += 1) {
       for (let column = 0; column < canvas.width / 2; column += 1) {
@@ -17,4 +17,4 @@ const initialCanvas = () => {
   } else throw Error('Canvas not found');
 };
 
-export { canvas, ctx, initialCanvas };
+export { canvas, ctx, initCanvas };

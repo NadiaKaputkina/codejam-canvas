@@ -1,4 +1,4 @@
-import { canvas, ctx } from './initialCanvas';
+import { canvas, ctx } from './initCanvas';
 
 const drawCanvas = (path) => {
   const rows = path.length;
